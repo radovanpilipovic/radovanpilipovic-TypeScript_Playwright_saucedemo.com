@@ -1,1 +1,2 @@
-# radovanpilipovic-TypeScript_Playwright_saucedemo.com
+## Automated Playwright tests on saucedemo.com
+OOP  tests performed on login, menuOptions, ordering items functionalities,...

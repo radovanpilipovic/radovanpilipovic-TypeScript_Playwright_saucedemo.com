@@ -1,0 +1,65 @@
+[
+    {
+        "credential": "valid user credential",
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "url": "https://www.saucedemo.com/inventory.html",
+        "hasError": false
+    },
+    {
+        "credential": "valid user credential",
+        "username": "problem_user",
+        "password": "secret_sauce",
+        "url": "https://www.saucedemo.com/inventory.html",
+        "hasError": false
+    },
+    {
+        "credential": "valid user credential",
+        "username": "performance_glitch_user",
+        "password": "secret_sauce",
+        "url": "https://www.saucedemo.com/inventory.html",
+        "hasError": false
+    },
+    {
+        "credential": "locked user",
+        "username": "locked_out_user",
+        "password": "secret_sauce",
+        "url": "https://www.saucedemo.com/",
+        "hasError": true
+    },
+    {
+        "credential": "invalid username",
+        "username": "tester",
+        "password": "secret_sauce",
+        "url": "https://www.saucedemo.com/",
+        "hasError": true
+    },
+    {
+        "credential": "invalid password",
+        "username": "standard_user",
+        "password": "passw0rd_sauce",
+        "url": "https://www.saucedemo.com/",
+        "hasError": true
+    },
+    {
+        "credential": "empty fields",
+        "username": "",
+        "password": "",
+        "url": "https://www.saucedemo.com/",
+        "hasError": true
+    },
+    {
+        "credential": "empty password field",
+        "username": "standard_user",
+        "password": "",
+        "url": "https://www.saucedemo.com/",
+        "hasError": true
+    },
+    {
+        "credential": "empty username field and valid password",
+        "username": "",
+        "password": "secret_sauce",
+        "url": "https://www.saucedemo.com/",
+        "hasError": true
+    }
+]
